@@ -1,8 +1,4 @@
-﻿#reordenable tr {
-    cursor: move;
-}
-
-.contenedor-totales {
+/*.contenedor-totales {
     display: flex;
     justify-content: space-around;
     font-size: 26px;
@@ -36,3 +32,4 @@
     .acordeon-cuentas .accordion-collapse {
         font-size: 18px;
     }
+*/
