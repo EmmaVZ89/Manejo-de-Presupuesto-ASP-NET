@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rb/lqa6kIzpVFKAhkyLgfB7hv4CpC8s6jb/ERLlxQKg=",
+  "Hash": "AvF0OLdk3sY72CfA604RsolsoifLnIQji11WlBqaDzI=",
   "Source": "Manejo Presupuesto",
   "BasePath": "_content/Manejo Presupuesto",
   "Mode": "Default",
@@ -899,6 +899,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\Manejo Presupuesto\\Manejo Presupuesto\\wwwroot\\lib\\fullcalendar\\main.min.css",
+      "SourceId": "Manejo Presupuesto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\Manejo Presupuesto\\Manejo Presupuesto\\wwwroot\\",
+      "BasePath": "_content/Manejo Presupuesto",
+      "RelativePath": "lib/fullcalendar/main.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\fullcalendar\\main.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\Manejo Presupuesto\\Manejo Presupuesto\\wwwroot\\lib\\fullcalendar\\main.min.js",
+      "SourceId": "Manejo Presupuesto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\Manejo Presupuesto\\Manejo Presupuesto\\wwwroot\\",
+      "BasePath": "_content/Manejo Presupuesto",
+      "RelativePath": "lib/fullcalendar/main.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\fullcalendar\\main.min.js"
     },
     {
       "Identity": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\Manejo Presupuesto\\Manejo Presupuesto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
