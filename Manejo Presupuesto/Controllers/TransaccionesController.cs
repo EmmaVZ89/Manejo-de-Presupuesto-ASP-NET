@@ -2,6 +2,7 @@
 using ClosedXML.Excel;
 using Manejo_Presupuesto.Models;
 using Manejo_Presupuesto.Servicios;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Data;
@@ -449,7 +450,12 @@ namespace Manejo_Presupuesto.Controllers
             TipoOperacion tipoOperacion)
         {
             var categorias = await repositorioCategorias.Obtener(usuarioId, tipoOperacion);
-            return categorias.Select(x => new SelectListItem(x.Nombre, x.Id.ToString()));
+            var resultado = categorias
+                .Select(x => new SelectListItem(x.Nombre, x.Id.ToString())).ToList();
+            var opcionPorDefecto = new SelectListItem("-- Seleccione una categoría --", "0", true);
+            resultado.Insert(0, opcionPorDefecto);
+            
+            return resultado;
         }
 
         [HttpPost]
