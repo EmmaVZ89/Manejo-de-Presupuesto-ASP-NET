@@ -15,7 +15,7 @@
 
 @if (Model.TransaccionesAgrupadas.Count() == 0)
 {
-    <h5>No hay datos para mostrar</h5>
+    <h5 class="sin-datos">No hay datos para mostrar</h5>
 }
 else
 {
@@ -23,7 +23,7 @@ else
         <tbody>
             @foreach (var transaccionAgrupada in Model.TransaccionesAgrupadas)
             {
-                <tr style="background-color: lightblue; font-size: 26px">
+                <tr class="tabla-totales">
                     <td colspan="3">
                         @transaccionAgrupada.FechaTransaccion.Day
                         <span class="badge bg-secondary">
@@ -35,7 +35,7 @@ else
                 </tr>
                 @foreach (var transaccion in transaccionAgrupada.Transacciones)
                 {
-                    <tr style="vertical-align: middle">
+                    <tr style="vertical-align: middle; background: rgba(255,255,255,0.6);">
                         <td>
                             <a asp-controller="transacciones" asp-action="Editar"
                    asp-route-id="@transaccion.Id"

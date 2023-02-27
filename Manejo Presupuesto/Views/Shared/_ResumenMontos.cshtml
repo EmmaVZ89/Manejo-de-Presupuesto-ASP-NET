@@ -3,7 +3,7 @@
 <div class="contenedor-totales mb-3">
     <div>
         <div>
-            <strong>Depósitos</strong>
+            <strong>Ingresos</strong>
         </div>
         <div class="activo">
             @Model.Ingresos.ToString("N")
@@ -11,7 +11,7 @@
     </div>
     <div>
         <div>
-            <strong>Retiros</strong>
+            <strong>Gastos</strong>
         </div>
         <div class="pasivo">
             @Model.Gastos.ToString("N")
@@ -21,7 +21,7 @@
         <div>
             <strong>Total</strong>
         </div>
-        <div>
+        <div class="total">
             @Model.Total.ToString("N")
         </div>
     </div>

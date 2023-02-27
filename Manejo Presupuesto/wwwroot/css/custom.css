@@ -1,4 +1,52 @@
-﻿#reordenable tr {
+﻿:root {
+    --color-primario: #EE6802;
+    --color-secundario: #F9FAD1;
+    --color-btn: #FF9B21;
+}
+
+header {
+    background: var(--color-secundario);
+    box-shadow: 1px 1px 4px var(--color-secundario);
+}
+
+body {
+    background: rgb(254,207,80);
+    background: -moz-linear-gradient(29deg, rgba(254,207,80,1) 7%, rgba(254,186,61,1) 27%, rgba(238,104,2,1) 73%);
+    background: -webkit-linear-gradient(29deg, rgba(254,207,80,1) 7%, rgba(254,186,61,1) 27%, rgba(238,104,2,1) 73%);
+    background: linear-gradient(29deg, rgba(254,207,80,1) 7%, rgba(254,186,61,1) 27%, rgba(238,104,2,1) 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fecf50",endColorstr="#ee6802",GradientType=1);
+}
+
+.active {
+    background: #fff !important;
+    color: var(--color-primario) !important;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.link-btn {
+    color: #fff;
+}
+
+    .link-btn:hover {
+        color: #000;
+    }
+
+.seleccion-fecha {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.nav-li > a {
+    color: var(--color-primario) !important;
+    font-weight: bold;
+    margin-left: 2rem;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#reordenable tr {
     cursor: move;
 }
 
@@ -7,7 +55,19 @@
     justify-content: space-around;
     font-size: 26px;
     text-align: center;
+    margin-top: 2rem;
 }
+
+    .contenedor-totales strong {
+        color: #fff;
+        text-shadow: 1px 1px #000;
+    }
+
+    .contenedor-totales .activo, .contenedor-totales .pasivo, .contenedor-totales .total {
+        background: rgba(255,255,255,0.6);
+        border-radius: 10px;
+        padding: 0 5px;
+    }
 
 .activo {
     color: blue;
@@ -15,6 +75,34 @@
 
 .pasivo {
     color: red;
+}
+
+.total {
+    font-weight: 500;
+}
+
+.sin-datos {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+.tabla-totales {
+    background-color: var(--color-secundario);
+    font-size: 26px;
+}
+
+.tabla-semanal, .tabla-mensual {
+    font-size: 20px;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 8px var(--color-primario);
+}
+
+.tabla-head {
+    background: var(--color-secundario);
+    color: var(--color-primario);
 }
 
 .acordeon-cuentas {

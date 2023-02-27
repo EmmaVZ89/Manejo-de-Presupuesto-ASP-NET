@@ -14,7 +14,7 @@
 
 <partial name="_Submenu" Model="SubMenuTransacciones.Mensual" />
 
-<h4>
+<h4 style="color: #fff; margin-top: 2rem; text-shadow: 1px 1px 1px #000">
     Mostrando transacciones de
     <a asp-route-anio="@anioAnterior" class="btn btn-secondary">
         <i class="bi-chevron-left"></i>
@@ -26,9 +26,9 @@
 
 <partial name="_ResumenMontos" model="@resumentMontos" />
 
-<table class="table" style="font-size: 20px">
+<table class="table tabla-mensual" style="font-size: 20px">
     <thead>
-        <tr style="background-color: lightblue">
+        <tr class="tabla-head">
             <th>Mes</th>
             <th style="text-align: right">Ingresos</th>
             <th style="text-align: right">Gastos</th>
@@ -37,9 +37,9 @@
     <tbody>
         @foreach(var transaccionPorMes in Model.TransaccionesPorMes)
         {
-            <tr>
-                <td>
-                    <a style="text-decoration: none;" asp-action="Index"
+            <tr style="background: rgba(255,255,255,0.6)">
+                <td style="text-transform: capitalize;">
+                    <a style="text-decoration: none; width: 4rem;" asp-action="Index" class="btn btn-secondary"
                     asp-route-anio="@Model.Anio" asp-route-mes="@transaccionPorMes.Mes"
                     >
                     @transaccionPorMes.FechaReferencia.ToString("MMM")
