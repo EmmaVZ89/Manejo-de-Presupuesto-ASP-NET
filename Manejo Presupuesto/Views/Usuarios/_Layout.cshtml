@@ -3,20 +3,21 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Manejo_Presupuesto</title>
+    <title>@ViewData["Title"] - Gestor de presupuestos</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Manejo_Presupuesto.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css/login.css" />
 </head>
 <body style="margin: 0">
-    <div style="display: flex; justify-content:center; align-items: center; height: 100vh">
-        <div style="margin-right: 5rem">
+    <div class="contenedor-login">
+        <div class="titulo">
             <h1>
-                Manejo Presupuestos
+                Gestor de presupuestos
             </h1>
-            <h4>En esta aplicación podrás manejar tus finanzas</h4>
+            <h4>Esta app te permitirá gestionar tus recursos económicos.</h4>
         </div>
         <main role="main" class="pb-3">
             @RenderBody()

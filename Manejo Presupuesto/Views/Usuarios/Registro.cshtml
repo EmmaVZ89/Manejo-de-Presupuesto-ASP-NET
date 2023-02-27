@@ -4,27 +4,27 @@
     ViewData["Title"] = "Registro";
 }
 
-<h1>Regístrate</h1>
+<h1 class="titulo-inicio">Registro</h1>
 
-<div class="card">
+<div class="card contenedor-carta">
     <div class="card-body">
         <form asp-action="Registro">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="mb-3">
-                <label asp-for="Email" class="form-label"></label>
+                <label asp-for="Email" class="form-label">Correo electrónico</label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label asp-for="Password" class="form-label"></label>
+                <label asp-for="Password" class="form-label">Contraseña</label>
                 <input asp-for="Password" type="password" class="form-control" />
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
 
-            <button class="btn-primary btn">Regístrate</button>
-            <a class="btn btn-success" asp-action="login">Deseo Loguearme</a>
+            <button class="btn-primary btn">Registrarse</button>
+            <a class="btn btn-success" asp-action="login">Deseo Inicia Sesión</a>
 
         </form>
     </div>

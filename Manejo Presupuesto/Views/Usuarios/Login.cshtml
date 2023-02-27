@@ -1,24 +1,24 @@
 ﻿@model LoginViewModel
 
 @{
-    ViewData["Title"] = "Login";
+    ViewData["Title"] = "Inicio de sesión";
 }
 
-<h1>Login</h1>
+<h1 class="titulo-inicio">Inicio de sesión</h1>
 
-<div class="card">
+<div class="card contenedor-carta">
     <div class="card-body">
         <form asp-action="Login">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="mb-3">
-                <label asp-for="Email" class="form-label"></label>
+                <label asp-for="Email" class="form-label">Correo electrónico</label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label asp-for="Password" class="form-label"></label>
+                <label asp-for="Password" class="form-label">Contraseña</label>
                 <input asp-for="Password" type="password" class="form-control" />
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
@@ -28,10 +28,9 @@
                 <label class="form-check-label" asp-for="Recuerdame"></label>
             </div>
 
-            <button class="btn-primary btn">Login</button>
-            <a class="btn btn-success" asp-action="registro">Crear una nueva cuenta</a>
+            <button class="btn-primary btn">Iniciar Sesión</button>
+            <a class="btn btn-success" asp-action="registro">Crear Cuenta</a>
         </form>
-
     </div>
 </div>
 

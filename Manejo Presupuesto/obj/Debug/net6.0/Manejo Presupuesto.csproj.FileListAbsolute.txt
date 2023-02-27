@@ -75,3 +75,80 @@ C:\Users\Note\Desktop\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\De
 C:\Users\Note\Desktop\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.pdb
 C:\Users\Note\Desktop\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.genruntimeconfig.cache
 C:\Users\Note\Desktop\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\ref\Manejo Presupuesto.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\appsettings.json
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Manejo Presupuesto.staticwebassets.runtime.json
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Manejo Presupuesto.exe
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Manejo Presupuesto.deps.json
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Manejo Presupuesto.runtimeconfig.json
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Manejo Presupuesto.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Manejo Presupuesto.pdb
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\ClosedXML.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Dapper.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Irony.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\SixLabors.Fonts.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\XLParser.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.csproj.AssemblyReference.cache
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.AssemblyInfoInputs.cache
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.AssemblyInfo.cs
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.csproj.CoreCompileInputs.cache
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.RazorAssemblyInfo.cache
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.RazorAssemblyInfo.cs
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\staticwebassets\msbuild.Manejo Presupuesto.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\staticwebassets\msbuild.build.Manejo Presupuesto.props
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Manejo Presupuesto.props
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Manejo Presupuesto.props
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\scopedcss\Views\Cuentas\Index.cshtml.rz.scp.css
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\scopedcss\bundle\Manejo Presupuesto.styles.css
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\scopedcss\projectbundle\Manejo Presupuesto.bundle.scp.css
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.csproj.CopyComplete
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\refint\Manejo Presupuesto.dll
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.pdb
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\Manejo Presupuesto.genruntimeconfig.cache
+C:\Users\Note\Desktop\Learn\Proyectos ASP\Manejo Presupuesto\Manejo Presupuesto\obj\Debug\net6.0\ref\Manejo Presupuesto.dll
