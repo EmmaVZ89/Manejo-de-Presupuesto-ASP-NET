@@ -4,9 +4,11 @@
     ViewData["Title"] = "Editar Cuenta";
 }
 
-<h1>Editar cuenta: @Model.Nombre</h1>
+<div class="crear-cuenta">
+    <h1>Editar cuenta: @Model.Nombre</h1>
+</div>
 
-<form asp-action="Editar">
+<form asp-action="Editar" class="formulario-crear-cuenta">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <input type="hidden" asp-for="Id" />
     <div class="mb-3">
@@ -33,8 +35,10 @@
         <span asp-validation-for="Descripcion" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-primary">Enviar</button>
-    <a class="btn btn-secondary" asp-action="Index">Cancelar</a>
+    <div style="margin-top: 2rem; text-align: end;">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <a class="btn btn-secondary" asp-action="Index">Cancelar</a>
+    </div>
 </form>
 
 
