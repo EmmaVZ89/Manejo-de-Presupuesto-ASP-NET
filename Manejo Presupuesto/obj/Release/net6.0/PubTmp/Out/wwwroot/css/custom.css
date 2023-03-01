@@ -1,0 +1,205 @@
+﻿:root {
+    --color-primario: #EE6802;
+    --color-secundario: #F9FAD1;
+    --color-btn: #FF9B21;
+}
+
+header {
+    background: var(--color-secundario);
+    box-shadow: 1px 1px 4px var(--color-secundario);
+}
+
+body {
+    background: rgb(254,207,80);
+    background: -moz-linear-gradient(29deg, rgba(254,207,80,1) 7%, rgba(254,186,61,1) 27%, rgba(238,104,2,1) 73%);
+    background: -webkit-linear-gradient(29deg, rgba(254,207,80,1) 7%, rgba(254,186,61,1) 27%, rgba(238,104,2,1) 73%);
+    background: linear-gradient(29deg, rgba(254,207,80,1) 7%, rgba(254,186,61,1) 27%, rgba(238,104,2,1) 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fecf50",endColorstr="#ee6802",GradientType=1);
+}
+
+.active {
+    background: #fff !important;
+    color: var(--color-primario) !important;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.link-btn {
+    color: #fff;
+}
+
+    .link-btn:hover {
+        color: #000;
+    }
+
+.seleccion-fecha {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.nav-li > a {
+    color: var(--color-primario) !important;
+    font-weight: bold;
+    margin-left: 2rem;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#reordenable tr {
+    cursor: move;
+}
+
+.contenedor-totales {
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+    .contenedor-totales strong {
+        color: #fff;
+        text-shadow: 1px 1px #000;
+    }
+
+    .contenedor-totales .activo, .contenedor-totales .pasivo, .contenedor-totales .total {
+        background: rgba(255,255,255,0.6);
+        border-radius: 10px;
+        padding: 0 5px;
+    }
+
+.activo {
+    color: blue;
+}
+
+.pasivo {
+    color: red;
+}
+
+.total {
+    font-weight: 500;
+}
+
+.sin-datos {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+.tabla-totales {
+    background-color: var(--color-secundario);
+    font-size: 26px;
+}
+
+.tabla-semanal, .tabla-mensual {
+    font-size: 20px;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 8px var(--color-primario);
+}
+
+.tabla-head {
+    background: var(--color-secundario);
+    color: var(--color-primario);
+}
+
+.acordeon-cuentas {
+    color: #000 !important;
+    font-size: 20px;
+}
+
+    .acordeon-cuentas button > span {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .acordeon-cuentas ul li {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .acordeon-cuentas .accordion-collapse {
+        font-size: 18px;
+    }
+
+.titulo-excel {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.contenedor-excel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn-excel {
+    width: 20rem;
+    text-transform: capitalize;
+}
+
+#calendario {
+    padding: 1rem;
+    color: var(--color-primario);
+    background: rgba(255,255,255,0.6);
+}
+
+.nombre-cuenta {
+    color: var(--color-primario);
+}
+
+.accordion-button {
+    background: var(--color-secundario);
+}
+
+.crear-cuenta h1 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.crear-cuenta h5 {
+    color: var(--color-secundario);
+    text-shadow: 1px 1px 1px var(--color-primario);
+    margin-bottom: 2rem;
+}
+
+.formulario-crear-cuenta {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.tabla-tipo-cuentas {
+    background: rgba(255,255,255,0.6);
+}
+    .tabla-tipo-cuentas thead {
+        color: var(--color-primario);
+        font-weight: bolder;
+    }
+
+/* typical phone screen resolution */
+@media only screen and (max-width : 667px) {
+    .navbar-principal {
+        text-align: center;
+    }
+
+    .nav-li > a {
+        margin-left: 0;
+    }
+
+    .contenedor-totales {
+        font-size: 20px;
+    }
+
+    .tabla-totales {
+        font-size: 16px;
+    }
+}

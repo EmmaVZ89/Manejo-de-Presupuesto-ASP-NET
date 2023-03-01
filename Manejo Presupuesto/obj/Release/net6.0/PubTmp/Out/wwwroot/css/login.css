@@ -1,0 +1,70 @@
+﻿:root {
+    --color-primario: #EE6802;
+    --color-secundario: #F9FAD1;
+}
+
+body {
+    background: rgb(254,207,80);
+    background: -moz-linear-gradient(29deg, rgba(254,207,80,1) 7%, rgba(254,186,61,1) 27%, rgba(238,104,2,1) 73%);
+    background: -webkit-linear-gradient(29deg, rgba(254,207,80,1) 7%, rgba(254,186,61,1) 27%, rgba(238,104,2,1) 73%);
+    background: linear-gradient(29deg, rgba(254,207,80,1) 7%, rgba(254,186,61,1) 27%, rgba(238,104,2,1) 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fecf50",endColorstr="#ee6802",GradientType=1);
+}
+
+.contenedor-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.titulo {
+    margin-right: 5rem;
+}
+
+    .titulo > h1, .titulo-inicio {
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+.titulo-inicio {
+    text-align: center;
+}
+
+.titulo > h4 {
+    color: var(--color-secundario);
+    text-shadow: 1px 1px 1px var(--color-primario);
+}
+
+.contenedor-carta {
+    color: #fff;
+    text-shadow: 1px 1px 1px var(--color-primario);
+    background: transparent;
+    border: none;
+    box-shadow: 2px 2px 4px var(--color-primario);
+}
+
+/* typical phone screen resolution */
+@media only screen and (max-width : 667px) {
+    .titulo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .contenedor-login {
+        flex-direction: column;
+    }
+
+        .contenedor-login > div {
+            margin-bottom: 5rem;
+        }
+
+    main {
+        width: 90%;
+    }
+
+    .contenedor-carta {
+        color: #fff;
+        text-shadow: 1px 1px #000;
+    }
+}

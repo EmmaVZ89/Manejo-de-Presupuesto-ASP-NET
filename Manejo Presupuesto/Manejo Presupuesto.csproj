@@ -5,6 +5,7 @@
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Manejo_Presupuesto</RootNamespace>
+    <UserSecretsId>263ebb41-4459-4638-8787-3027ef1302f0</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

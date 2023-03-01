@@ -4,15 +4,17 @@
     ViewData["Title"] = "Tipos Cuentas";
 }
 
-<h1>Tipos de Cuentas</h1>
-<h5>
-    El tipo de cuenta se refiere a cómo podemos agrupar cuentas.
-    Ejemplos: Préstamos, tarjetas de crédito, etc.
-</h5>
+<div class="crear-cuenta">
+    <h1>Tipos de Cuentas</h1>
+    <h5>
+        El tipo de cuenta se refiere a cómo podemos agrupar cuentas.
+        Ejemplos: Préstamos, tarjetas de crédito, etc.
+    </h5>
+</div>
 
-<a asp-action="Crear" class="btn btn-primary mb-3">Crear nuevo</a>
+<a asp-action="Crear" class="btn btn-success mb-3">Crear nuevo</a>
 
-<table class="table">
+<table class="table tabla-tipo-cuentas">
     <thead>
         <tr>
             <th>Acciones</th>
@@ -41,9 +43,9 @@
 
         const urlOrdenar = '@Url.Action("ordenar")';
 
-        $(function(){
+        $(function () {
             $("#reordenable").sortable({
-                stop: async  function(e, ui) {
+                stop: async function (e, ui) {
                     await actualizarOrdenes();
                 }
             });
@@ -54,7 +56,7 @@
             }
 
             function obtenerIdsDeElementos() {
-                const ids = $(".ids").map(function() {
+                const ids = $(".ids").map(function () {
                     return $(this).val();
                 }).get();
 
